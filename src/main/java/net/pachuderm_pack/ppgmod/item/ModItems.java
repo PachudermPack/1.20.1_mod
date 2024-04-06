@@ -2,10 +2,7 @@ package net.pachuderm_pack.ppgmod.item;
 
 import net.minecraft.world.food.Foods;
 import net.pachuderm_pack.ppgmod.PPGmod;
-import net.pachuderm_pack.ppgmod.item.custom.CookedWormItem;
-import net.pachuderm_pack.ppgmod.item.custom.ModArmorItem;
-import net.pachuderm_pack.ppgmod.item.custom.WormItem;
-import net.pachuderm_pack.ppgmod.item.custom.WormSwordItem;
+import net.pachuderm_pack.ppgmod.item.custom.*;
 import net.pachuderm_pack.ppgmod.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -38,13 +35,13 @@ public class ModItems {
             () -> new Item( new Item.Properties().food(Foods.APPLE)));
 
     public static final RegistryObject<Item> WORM_PICKAXE = ITEMS.register("worm_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.PPG,1,-3, new Item.Properties()));
+            () -> new WormPickaxeItem(ModToolTiers.PPG,1,-3, new Item.Properties()));
     public static final RegistryObject<Item> WORM_AXE = ITEMS.register("worm_axe",
-            () -> new AxeItem(ModToolTiers.PPG,25,-3, new Item.Properties()));
+            () -> new WormAxeItem(ModToolTiers.PPG,25,-3, new Item.Properties()));
     public static final RegistryObject<Item> WORM_HOE = ITEMS.register("worm_hoe",
-            () -> new HoeItem(ModToolTiers.PPG,0,-3, new Item.Properties()));
+            () -> new WormHoeItem(ModToolTiers.PPG,0,-3, new Item.Properties()));
     public static final RegistryObject<Item> WORM_SHOVEL = ITEMS.register("worm_shovel",
-            () -> new ShovelItem(ModToolTiers.PPG,0,-3, new Item.Properties()));
+            () -> new WormShovelItem(ModToolTiers.PPG,0,-3, new Item.Properties()));
 
     public static final RegistryObject<Item> PPG_HELMET = ITEMS.register("ppg_helmet",
             () -> new ModArmorItem(ModArmorMaterials.PPG,ArmorItem.Type.HELMET, new Item.Properties()));

@@ -23,7 +23,7 @@ public class WormSwordItem extends SwordItem {
 
     @Override
     public @Nullable CompoundTag getShareTag(ItemStack stack) {
-        CompoundTag tag = super.getShareTag(stack);
+        CompoundTag tag = stack.getOrCreateTag();
         if (tag != null) {
             tag.putBoolean("Unbreakable", true);
         }

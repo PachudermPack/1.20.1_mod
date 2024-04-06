@@ -1,6 +1,7 @@
 package net.pachuderm_pack.ppgmod.item.custom;
 
 import com.google.common.collect.ImmutableMap;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.TooltipFlag;
 import net.pachuderm_pack.ppgmod.item.ModArmorMaterials;
@@ -18,8 +19,8 @@ import java.util.Map;
 
 public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
-            (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
-                    .put(ModArmorMaterials.PPG, new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 2, false, false, true)).build();
+            (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>()).build();
+ //                   .put(ModArmorMaterials.PPG, new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 2, false, false, true)).build();
 
 
     public ModArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
@@ -29,6 +30,15 @@ public class ModArmorItem extends ArmorItem {
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.ppgmod.fullarmoreffect.tooltip"));
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+    }
+    @Override
+    public @Nullable CompoundTag getShareTag(ItemStack stack) {
+        CompoundTag tag = super.getShareTag(stack);
+        if (tag != null) {
+            tag.putBoolean("Unbreakable", true);
+        }
+
+        return tag;
     }
 
     @Override

@@ -40,6 +40,10 @@
 
   "tooltip.ppgmod.worm.tooltip": "§3Ладно.",
   "tooltip.ppgmod.cookedworm.tooltip": "§3Ты не ты когда голоден)",
-  "tooltip.ppgmod.worm_sword.tooltip": "§3не ну реально имба",
-  "tooltip.ppgmod.fullarmoreffect.tooltip": "§6Эффект при полном комплекте - Высокий прыжок"
+  "tooltip.ppgmod.worm_sword.tooltip": "§3Не ну реально имба",
+  "tooltip.ppgmod.worm_pickaxe.tooltip": "§3Не смотри ему в глаза",
+  "tooltip.ppgmod.worm_axe.tooltip": "§3Такоооой медленный",
+  "tooltip.ppgmod.worm_hoe.tooltip": "§3Ты же понимаешь, что это 2 звезды из незера за мотыгу?",
+  "tooltip.ppgmod.worm_shovel.tooltip": "§3ГДЕ ЛОПАТА ты бы не отдал ее человеку из толпы",
+  "tooltip.ppgmod.fullarmoreffect.tooltip": "§6Эффект при полном комплекте - Высокий прыжок и Прилив здоровья"
 }
