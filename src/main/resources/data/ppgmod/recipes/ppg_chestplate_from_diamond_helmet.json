@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "pattern": [
+    "X#X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "ppgmod:ppg"
+    },
+    "#": {
+      "item": "minecraft:diamond_chestplate"
+    }
+  },
+    "result": {
+      "item": "ppgmod:ppg_chestplate"
+    }
+  }

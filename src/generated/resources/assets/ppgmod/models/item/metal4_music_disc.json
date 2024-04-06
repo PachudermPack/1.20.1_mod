@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ppgmod:item/metal4_music_disc"
+  }
+}

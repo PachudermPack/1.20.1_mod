@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "pattern": [
+    "   ",
+    "X#X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "ppgmod:ppg"
+    },
+    "#": {
+      "item": "minecraft:diamond_boots"
+    }
+  },
+    "result": {
+      "item": "ppgmod:ppg_boots"
+    }
+  }

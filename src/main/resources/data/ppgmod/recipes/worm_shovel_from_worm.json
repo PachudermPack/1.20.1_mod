@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "pattern": [
+    " # ",
+    " X ",
+    " X "
+  ],
+
+  "key": {
+    "X": {
+      "item": "minecraft:blaze_rod"
+    },
+
+    "#": {
+      "item": "ppgmod:worm"
+    }
+  },
+
+  "result": {
+    "item": "ppgmod:worm_shovel"
+  }
+}

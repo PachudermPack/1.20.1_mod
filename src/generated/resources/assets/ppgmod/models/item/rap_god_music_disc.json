@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ppgmod:item/rap_god_music_disc"
+  }
+}

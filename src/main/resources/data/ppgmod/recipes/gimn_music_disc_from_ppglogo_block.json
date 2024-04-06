@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+
+    "#": {
+      "item": "ppgmod:ppglogo_block"
+    }
+  },
+
+  "result": {
+    "item": "ppgmod:metal1_music_disc"
+  }
+}

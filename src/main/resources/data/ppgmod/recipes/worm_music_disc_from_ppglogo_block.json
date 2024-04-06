@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "mics",
+  "ingredients" : [
+    {
+      "item": "ppgmod:worm"
+    }
+  ],
+  "result": {
+    "item": "ppgmod:worm_music_disc",
+    "count": 1
+  }
+}

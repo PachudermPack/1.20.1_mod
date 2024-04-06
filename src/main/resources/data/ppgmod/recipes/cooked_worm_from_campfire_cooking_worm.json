@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 10.0,
+  "group": "worm",
+  "ingredient": {
+    "item": "ppgmod:worm"
+  },
+  "result": "ppgmod:cooked_worm"
+}

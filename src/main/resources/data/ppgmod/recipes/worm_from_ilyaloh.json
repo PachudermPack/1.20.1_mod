@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+
+    "#": {
+      "item": "ppgmod:ilyaloh"
+    }
+  },
+
+  "result": {
+    "item": "ppgmod:worm"
+  }
+}

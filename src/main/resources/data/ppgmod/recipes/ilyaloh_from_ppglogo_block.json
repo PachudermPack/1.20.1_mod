@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "mics",
+  "ingredients" : [
+    {
+      "item": "ppgmod:ppglogo_block"
+    }
+  ],
+  "result": {
+    "item": "ppgmod:ilyaloh",
+    "count": 8
+  }
+}

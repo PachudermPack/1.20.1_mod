@@ -1,0 +1,120 @@
+{
+  "ppglogo_block_break": {
+    "subtitle": "sounds.ppgmod.ppglogo_block_break",
+    "sounds": [
+      "ppgmod:ppglogo_block_break"
+    ]
+  },
+  "ppglogo_block_step": {
+    "subtitle": "sounds.ppgmod.ppglogo_block_place",
+    "sounds": [
+      "ppgmod:ppglogo_block_step"
+    ]
+  },
+  "ppglogo_block_place": {
+    "subtitle": "sounds.ppgmod.ppglogo_block_place",
+    "sounds": [
+      "ppgmod:ppglogo_block_place"
+    ]
+  },
+  "ppglogo_block_hit": {
+    "subtitle": "sounds.ppgmod.ppglogo_block_hit",
+    "sounds": [
+      "ppgmod:ppglogo_block_hit"
+    ]
+  },
+  "metal1": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/metal1",
+        "stream": true
+      }
+    ]
+  },
+  "metal2": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/metal2",
+        "stream": true
+      }
+    ]
+  },
+  "metal3": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/metal3",
+        "stream": true
+      }
+    ]
+  },
+  "metal4": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/metal4",
+        "stream": true
+      }
+    ]
+  },
+  "metal5": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/metal5",
+        "stream": true
+      }
+    ]
+  },
+  "jopa": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/jopa",
+        "stream": true
+      }
+    ]
+  },
+  "barbariki": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/barbariki",
+        "stream": true
+      }
+    ]
+  },
+  "rap_god": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/rap_god",
+        "stream": true
+      }
+    ]
+  },
+  "gimn": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/gimn",
+        "stream": true
+      }
+    ]
+  },
+  "spirit": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/spirit",
+        "stream": true
+      }
+    ]
+  },
+  "worm": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/worm",
+        "stream": true
+      }
+    ]
+  },
+"ppglogo_block_fall": {
+"subtitle": "sounds.ppgmod.ppglogo_block_fall",
+"sounds": [
+"ppgmod:ppglogo_block_fall"
+]
+}
+}

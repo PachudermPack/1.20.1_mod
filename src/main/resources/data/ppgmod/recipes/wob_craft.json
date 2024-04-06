@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "pattern": [
+    " X#",
+    "X #",
+    " X#"
+  ],
+
+  "key": {
+    "X": {
+      "item": "minecraft:string"
+    },
+
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result": {
+    "item": "ppgmod:wob"
+  }
+}

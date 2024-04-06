@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 10.0,
+  "group": "ppglogo_block",
+  "ingredient": {
+    "item": "minecraft:nether_star"
+  },
+  "result": "ppgmod:ppglogo_block"
+}

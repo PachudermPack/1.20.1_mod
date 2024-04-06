@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XX "
+  ],
+
+  "key": {
+    "X": {
+      "item": "minecraft:redstone_block"
+    },
+
+    "#": {
+      "item": "ppgmod:ppglogo_block"
+    }
+  },
+
+  "result": {
+    "item": "ppgmod:barbariki_music_disc"
+  }
+}
