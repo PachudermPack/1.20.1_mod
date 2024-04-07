@@ -13,6 +13,10 @@
   "item.ppgmod.ppg_leggings": "PPG leggings",
   "item.ppgmod.ppg_boots": "PPG boots",
   "item.ppgmod.ppg": "§5PPG",
+  "item.ppgmod.cooked_worm": "Cooked worm",
+  "item.ppgmod.wob": "Wob",
+
+
   "item.ppgmod.metal1_music_disc": "§dMetal 1",
   "item.ppgmod.metal1_music_disc.desc": "Pachuderm_Pack - Metal 1",
   "item.ppgmod.metal2_music_disc": "§dMetal 2",
@@ -35,8 +39,9 @@
   "item.ppgmod.spirit_music_disc.desc": "AI cover Smells like teen spirit",
   "item.ppgmod.worm_music_disc": "§dWorm",
   "item.ppgmod.worm_music_disc.desc": "Worm song",
-  "item.ppgmod.cooked_worm": "Cooked worm",
-  "item.ppgmod.wob": "Wob",
+  "item.ppgmod.superdupermegasword": "§4SUPER DUPE MEGA PEPEGA SWORD",
+  "item.ppgmod.superdupermegasword.desc": "§2Damage: 999999",
+
 
   "tooltip.ppgmod.worm.tooltip": "§3ladno",
   "tooltip.ppgmod.cookedworm.tooltip": "§3Ты не ты когда голоден)",

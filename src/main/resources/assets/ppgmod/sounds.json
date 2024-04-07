@@ -111,6 +111,14 @@
       }
     ]
   },
+  "nggyu": {
+    "sounds": [
+      {
+        "name":"ppgmod:records/nggyu",
+        "stream": true
+      }
+    ]
+  },
 "ppglogo_block_fall": {
 "subtitle": "sounds.ppgmod.ppglogo_block_fall",
 "sounds": [

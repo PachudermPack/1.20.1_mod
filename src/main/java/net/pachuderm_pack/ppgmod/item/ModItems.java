@@ -71,6 +71,8 @@ public class ModItems {
             () -> new RecordItem(6, ModSounds.SPIRIT, new Item.Properties().stacksTo(1),5560));
     public static final RegistryObject<Item> WORM_MUSIC_DISC = ITEMS.register("worm_music_disc",
             () -> new RecordItem(6, ModSounds.WORM, new Item.Properties().stacksTo(1),4060));
+    public static final RegistryObject<Item> SUPERPUPERMEGASWORD = ITEMS.register("superdupermegasword",
+            () -> new RecordItem(6, ModSounds.NGGYU, new Item.Properties().stacksTo(1),4060));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

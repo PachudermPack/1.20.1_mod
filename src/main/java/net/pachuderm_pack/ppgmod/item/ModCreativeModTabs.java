@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.WORM_HOE.get());
                         pOutput.accept(ModItems.WORM_PICKAXE.get());
                         pOutput.accept(ModItems.WOB.get());
+                        pOutput.accept(ModItems.SUPERPUPERMEGASWORD.get());
                         pOutput.accept(ModBlocks.PPGLOGO_BLOCK.get());
                         pOutput.accept(ModItems.COOKED_WORM.get());
                         pOutput.accept(ModItems.PPG_HELMET.get());

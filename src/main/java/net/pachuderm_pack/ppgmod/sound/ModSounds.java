@@ -33,6 +33,7 @@ public class ModSounds {
         public static final RegistryObject<SoundEvent> GIMN = registerSoundEvents("gimn");
         public static final RegistryObject<SoundEvent> SPIRIT = registerSoundEvents("spirit");
         public static final RegistryObject<SoundEvent> WORM = registerSoundEvents("worm");
+        public static final RegistryObject<SoundEvent> NGGYU = registerSoundEvents("nggyu");
 
 
     public static final ForgeSoundType PPGLOGO_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,

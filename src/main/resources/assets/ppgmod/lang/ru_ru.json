@@ -13,6 +13,10 @@
   "item.ppgmod.ppg_leggings": "Штанцы за 40",
   "item.ppgmod.ppg_boots": "Фу воняет",
   "item.ppgmod.ppg": "§5PPG",
+  "item.ppgmod.cooked_worm": "Стейк из червя",
+  "item.ppgmod.wob": "Кул",
+
+
   "item.ppgmod.metal1_music_disc": "§dMetal 1",
   "item.ppgmod.metal1_music_disc.desc": "Pachuderm_Pack - Metal 1",
   "item.ppgmod.metal2_music_disc": "§dMetal 2",
@@ -35,8 +39,9 @@
   "item.ppgmod.spirit_music_disc.desc": "AI кавер Smells like teen spirit",
   "item.ppgmod.worm_music_disc": "§dЧервяк",
   "item.ppgmod.worm_music_disc.desc": "Песня про червей",
-  "item.ppgmod.cooked_worm": "Стейк из червя",
-  "item.ppgmod.wob": "Кул",
+  "item.ppgmod.superdupermegasword": "§4СУПЕР ДУПЕР МЕГА МЕЧ БОГОВ",
+  "item.ppgmod.superdupermegasword.desc": "§2Урон: 999999",
+
 
   "tooltip.ppgmod.worm.tooltip": "§3Ладно.",
   "tooltip.ppgmod.cookedworm.tooltip": "§3Ты не ты когда голоден)",

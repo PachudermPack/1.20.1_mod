@@ -38,6 +38,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.RAP_GOD_MUSIC_DISC.get(),
                         ModItems.SPIRIT_MUSIC_DISC.get(),
                         ModItems.WORM_MUSIC_DISC.get(),
-                        ModItems.GIMN_MUSIC_DISC.get());
+                        ModItems.GIMN_MUSIC_DISC.get(),
+                        ModItems.SUPERPUPERMEGASWORD.get());
     }
 }
