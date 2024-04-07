@@ -1,6 +1,5 @@
 package net.pachuderm_pack.ppgmod.item;
 
-import net.minecraft.world.food.Foods;
 import net.pachuderm_pack.ppgmod.PPGmod;
 import net.pachuderm_pack.ppgmod.item.custom.*;
 import net.pachuderm_pack.ppgmod.sound.ModSounds;
@@ -9,7 +8,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.minecraft.nbt.CompoundTag;
 
 
 public class ModItems {
@@ -27,13 +25,11 @@ public class ModItems {
     public static final RegistryObject<Item> COOKED_WORM = ITEMS.register("cooked_worm",
             () -> new CookedWormItem(new Item.Properties().food(ModFoods.COOKED_WORM)));
 
+    public static final RegistryObject<Item> WOB = ITEMS.register("wob",
+            () -> new Item( new Item.Properties().food(ModFoods.WOB).stacksTo(1)));
 
     public static final RegistryObject<Item> WORM_SWORD = ITEMS.register("worm_sword",
             () -> new WormSwordItem(ModToolTiers.PPG,20,-1, new Item.Properties()));
-
-    public static final RegistryObject<Item> WOB = ITEMS.register("wob",
-            () -> new Item( new Item.Properties().food(Foods.APPLE)));
-
     public static final RegistryObject<Item> WORM_PICKAXE = ITEMS.register("worm_pickaxe",
             () -> new WormPickaxeItem(ModToolTiers.PPG,1,-3, new Item.Properties()));
     public static final RegistryObject<Item> WORM_AXE = ITEMS.register("worm_axe",
@@ -76,19 +72,7 @@ public class ModItems {
     public static final RegistryObject<Item> WORM_MUSIC_DISC = ITEMS.register("worm_music_disc",
             () -> new RecordItem(6, ModSounds.WORM, new Item.Properties().stacksTo(1),4060));
 
-
-
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
-    }
-    ItemStack itemStack = new ItemStack(Items.DIAMOND_SWORD); // замените DIAMOND_SWORD на нужный вам инструмент
-    public class Unbreakable extends Item {
-        public Unbreakable(Properties properties) {
-            super(properties);
-            ItemStack itemStack = new ItemStack(this);
-            CompoundTag tag = itemStack.getOrCreateTag();
-            tag.putBoolean("Unbreakable", true);
-            itemStack.setTag(tag);
-        }
     }
 }

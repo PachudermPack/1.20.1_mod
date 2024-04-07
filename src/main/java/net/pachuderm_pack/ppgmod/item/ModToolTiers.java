@@ -1,9 +1,6 @@
 package net.pachuderm_pack.ppgmod.item;
 
-import net.minecraft.commands.arguments.NbtTagArgument;
-import net.minecraft.nbt.CompoundTag;
 import net.pachuderm_pack.ppgmod.PPGmod;
-import net.pachuderm_pack.ppgmod.item.ModItems;
 import net.pachuderm_pack.ppgmod.util.ModTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Tier;

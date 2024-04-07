@@ -1,10 +1,5 @@
 package net.pachuderm_pack.ppgmod.sound;
 
-import net.minecraft.commands.arguments.NbtTagArgument;
-import net.minecraft.sounds.Music;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.pachuderm_pack.ppgmod.PPGmod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;

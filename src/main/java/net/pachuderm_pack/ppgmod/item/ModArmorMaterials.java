@@ -6,8 +6,6 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.pachuderm_pack.ppgmod.PPGmod;
-import net.pachuderm_pack.ppgmod.item.ModItems;
-import net.pachuderm_pack.ppgmod.item.custom.ModArmorItem;
 
 import java.util.function.Supplier;
 

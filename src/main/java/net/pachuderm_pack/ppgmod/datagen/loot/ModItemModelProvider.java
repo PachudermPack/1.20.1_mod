@@ -70,10 +70,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.PPG_LEGGINGS);
         trimmedArmorItem(ModItems.PPG_BOOTS);
     }
-
-    // Shoutout to El_Redstoniano for making this
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
-        final String MOD_ID = PPGmod.MOD_ID; // Change this to your mod id
+        final String MOD_ID = PPGmod.MOD_ID;
 
         if(itemRegistryObject.get() instanceof ArmorItem armorItem) {
             trimMaterials.entrySet().forEach(entry -> {
@@ -93,20 +91,16 @@ public class ModItemModelProvider extends ItemModelProvider {
                 String trimPath = "trims/items/" + armorType + "_trim_" + trimMaterial.location().getPath();
                 String currentTrimName = armorItemPath + "_" + trimMaterial.location().getPath() + "_trim";
                 ResourceLocation armorItemResLoc = new ResourceLocation(MOD_ID, armorItemPath);
-                ResourceLocation trimResLoc = new ResourceLocation(trimPath); // minecraft namespace
+                ResourceLocation trimResLoc = new ResourceLocation(trimPath);
                 ResourceLocation trimNameResLoc = new ResourceLocation(MOD_ID, currentTrimName);
 
-                // This is used for making the ExistingFileHelper acknowledge that this texture exist, so this will
-                // avoid an IllegalArgumentException
                 existingFileHelper.trackGenerated(trimResLoc, PackType.CLIENT_RESOURCES, ".png", "textures");
 
-                // Trimmed armorItem files
                 getBuilder(currentTrimName)
                         .parent(new ModelFile.UncheckedModelFile("item/generated"))
                         .texture("layer0", armorItemResLoc)
                         .texture("layer1", trimResLoc);
 
-                // Non-trimmed armorItem file (normal variant)
                 this.withExistingParent(itemRegistryObject.getId().getPath(),
                                 mcLoc("item/generated"))
                         .override()

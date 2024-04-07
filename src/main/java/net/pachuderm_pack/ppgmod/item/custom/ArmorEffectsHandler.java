@@ -1,20 +1,13 @@
 package net.pachuderm_pack.ppgmod.item.custom;
 
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.LivingEquipmentChangeEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.pachuderm_pack.ppgmod.PPGmod;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.ItemStack;
-import net.pachuderm_pack.ppgmod.item.ModArmorMaterials;
-import net.pachuderm_pack.ppgmod.item.ModItems;
 
 @Mod.EventBusSubscriber(modid = "ppgmod")
 public class ArmorEffectsHandler {

@@ -9,7 +9,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.pachuderm_pack.ppgmod.block.custom.ModBlocks;
-import net.pachuderm_pack.ppgmod.item.ModItems;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -27,7 +26,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.WORM_SHOVEL.get());
                         pOutput.accept(ModItems.WORM_HOE.get());
                         pOutput.accept(ModItems.WORM_PICKAXE.get());
+                        pOutput.accept(ModItems.WOB.get());
                         pOutput.accept(ModBlocks.PPGLOGO_BLOCK.get());
+                        pOutput.accept(ModItems.COOKED_WORM.get());
                         pOutput.accept(ModItems.PPG_HELMET.get());
                         pOutput.accept(ModItems.PPG_CHESTPLATE.get());
                         pOutput.accept(ModItems.PPG_LEGGINGS.get());
@@ -43,8 +44,6 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.GIMN_MUSIC_DISC.get());
                         pOutput.accept(ModItems.SPIRIT_MUSIC_DISC.get());
                         pOutput.accept(ModItems.WORM_MUSIC_DISC.get());
-                        pOutput.accept(ModItems.COOKED_WORM.get());
-                        //pOutput.accept(ModItems.WOB.get());
                     })
                     .build());
 
